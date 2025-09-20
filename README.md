@@ -1,8 +1,8 @@
-# 🚀 Python Project
+# 🚀 Python Practice Repo
 
 ![Awesome](https://img.shields.io/badge/Status-Awesome-brightgreen?style=for-the-badge&logo=python)
 
-Welcome to the **Python Project**!  
+Welcome to the **Python Practice Repo**!  
 Unleash the power of Python with scripts and modules for all kinds of cool experiments. 🐍✨
 
 ---

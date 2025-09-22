@@ -1,4 +1,4 @@
-# 🚀 Python Practice Repo
+# Python Practice Repo
 
 ![Awesome](https://img.shields.io/badge/Status-Awesome-brightgreen?style=for-the-badge&logo=python)
 
@@ -7,7 +7,7 @@ Unleash the power of Python with scripts and modules for all kinds of cool exper
 
 ---
 
-## 🎯 Goals
+## Goals
 
 - **Build something amazing:**  
   Push the boundaries of what's possible with Python.

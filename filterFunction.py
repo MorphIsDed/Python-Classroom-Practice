@@ -9,6 +9,5 @@ def is_prime(n):
     return True
 
 input_list = list(map(int, input("Enter a list of numbers separated by spaces: ").split()))
-# Using filter with a lambda function
 prime_numbers = list(filter(lambda x: is_prime(x), input_list))
 print(f"Prime numbers in the list: {prime_numbers}")

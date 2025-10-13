@@ -7,6 +7,7 @@ print("="*40)
 # Using the built-in len() function
 
 my_list = [1, 2, 3, 4]
+print(f"My list: {my_list}")
 print(f"Length of my_list: {len(my_list)}\n")
 
 print("="*40)

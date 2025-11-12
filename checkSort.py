@@ -9,7 +9,7 @@ def is_sorted_ascending(lst):
             return "The list is not sorted in ascending order."
     return "The list is sorted in ascending order."
 
-lst = [1, 2, 2, 3, 3, 4, 5]
+lst = [input("Enter numbers separated by spaces: ").split()]
 result = is_sorted_ascending(lst)
 
 print()

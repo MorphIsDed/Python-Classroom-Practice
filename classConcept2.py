@@ -110,3 +110,44 @@ print(f"The Different Temperatures for 7 days are: {temperatures}")
 weather_report = WeatherReport(temperatures)
 weather_report.display_report()
 print()
+
+
+
+# Question 3 ---->
+# Create a Python class Employee that stores an employee’s name, basic salary, and bonus percentage.
+# Write methods to:
+# Calculate total salary
+# Check whether salary is above ₹50,000
+# Display employee details
+# Create an object for one employee and show the complete report.
+
+
+class Employee:    
+    def __init__(self, name, basic_salary, bonus_percentage):
+        self.name = name
+        self.basic_salary = basic_salary
+        self.bonus_percentage = bonus_percentage
+    def total_salary(self):
+        bonus_amount = (self.bonus_percentage / 100) * self.basic_salary
+        return self.basic_salary + bonus_amount
+    def is_salary_above_50000(self):
+        return self.total_salary() > 50000
+    def display_employee_details(self):
+        total_sal = self.total_salary()
+        salary_status = "above ₹50,000" if self.is_salary_above_50000() else "below ₹50,000"
+        details = (
+            f"Employee Name: {self.name}\n"
+            f"Basic Salary: ₹{self.basic_salary:.2f}\n"
+            f"Bonus Percentage: {self.bonus_percentage}%\n"
+            f"Total Salary: ₹{total_sal:.2f}\n"
+            f"Salary Status: {salary_status}"
+        )
+        print(details)
+        
+print()
+employee = Employee("Abhinay", 450000, 15)
+employee2 = Employee("Ravi", 40000, 10)
+employee.display_employee_details()
+print()
+employee2.display_employee_details()
+print()
